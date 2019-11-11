@@ -46,7 +46,7 @@ Once these scripts are placed in the *PATH*, the may be executed in the followin
 
 ### Adding a path
 The following command adds the current path (c:\Users) to the jump list with the name 'users'
-`c:\Users> ja users`
+`c:\Users> jadd users`
 
 ### Listing saved paths
 The following command lists the paths saved to the jump list
