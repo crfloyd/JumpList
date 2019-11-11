@@ -4,7 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageId>CliTools.JumpList</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackAsTool>true</PackAsTool>
+    <Authors>Corey Floyd</Authors>
+    <RepositoryUrl>https://github.com/crfloyd/JumpList</RepositoryUrl>
+    <PackageDescription>Simple dotnet tool for a command-line folder jump list</PackageDescription>
     <ToolCommandName>jumplist</ToolCommandName>
     <AssemblyName>CliTools.JumpList</AssemblyName>
   </PropertyGroup>
