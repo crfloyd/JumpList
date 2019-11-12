@@ -4,7 +4,7 @@
 Simple dotnet tool to create and manage a folder jump list.
 
 ## Installation
-To install as a dotnet tool, run the following from a command prompt: `dotnet tool install -g CliTools.JumpList`
+To install as a dotnet tool, run the following from a command prompt: `dotnet tool install -g CliTools.JumpList`. Next, add the bash scripts in the Scripts folder to the PATH environment. 
 
 ## Usage
 To run the tool, the short name _jumplist_ is used. The saves paths for a given key and will output a path for the specified key. This tool is intended to be used in conjunction with the given a bash script to alias the dotnet command and to use the output path to change into the specified directory.
@@ -46,7 +46,7 @@ Once these scripts are placed in the *PATH*, the may be executed in the followin
 
 ### Adding a path
 The following command adds the current path (c:\Users) to the jump list with the name 'users'
-`c:\Users> ja users`
+`c:\Users> jadd users`
 
 ### Listing saved paths
 The following command lists the paths saved to the jump list
